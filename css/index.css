@@ -129,6 +129,8 @@ span {
     margin-top: 11rem;
 }
 
+
+
 .hello_msg p {
     max-width: 70%;
 }
@@ -147,11 +149,15 @@ span {
 }
 
 .text_block h1 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .text_block p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+}
+
+.text_block p span {
+    font-size: 1.3rem;
 }
 
 .social_block {
@@ -771,22 +777,18 @@ textarea {
 }
 
 .adress {
-
     display: flex;
     flex-direction: column;
     color: var(--white-color);
-
-
 }
 
-.footer_nav.social_block li {
+/* .footer_nav.social_block li {
     color: red;
-}
+} */
 
 .footer_nav_list a {
     color: var(--white-color);
     font-size: 1.5rem;
-
 
 }
 
@@ -841,6 +843,7 @@ textarea {
     .text_block {
         text-align: center;
         display: block;
+        max-width: 45%;
     }
 
     .img_main {
@@ -921,7 +924,8 @@ textarea {
     }
 
     .space {
-        height: 400px;
+        display: block;
+        height: 500px;
     }
 
     .about_content {
@@ -969,6 +973,10 @@ textarea {
         align-items: center;
         padding: 0;
         gap: 0;
+    }
+
+    .heading_item {
+        margin-top: 40px;
     }
 
     .portfolio_item {
