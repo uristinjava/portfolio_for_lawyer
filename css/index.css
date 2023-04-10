@@ -543,6 +543,7 @@ span {
     width: 33.3rem;
     height: 24.8rem;
     border-radius: 2rem;
+    object-fit: fill;
 
 }
 
@@ -571,6 +572,8 @@ span {
 }
 
 .portfolio_box img {
+    /* width: 100%; */
+    object-fit: cover;
     position: absolute;
     top: 0;
     transition: .5s ease;
