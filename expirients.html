@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KLYKOV</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/expirients.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="/js/index.js" defer></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header__conteiner">
+            <div class="logo">
+                <h1>!KLYKOFF!</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li> <a style="color:var(--main-color)" href="/index.html"> Главная</a></li>
+                    <li> <a style="color:var(--main-color)" href="/index.html#about"> Обо Мне</a></li>
+                    <li> <a style="color:var(--main-color)" href="/index.html#service"> Услуги</a></li>
+                    <li> <a style="color:var(--main-color)" href="/index.html#portfolio"> Завершенные проекты</a></li>
+                    <li> <a style="color:var(--main-color)" href="#contacts"> Заявка</a></li>
+                </ul>
+            </nav>
+            <div class="dark_mode">
+                <i class='bx bx-moon'></i>
+            </div>
+        </header>
+
+        <div class="diploms">
+
+            <div class="lowyer">
+                <h2>Диплом о получении Высшего <span>Юридического</span> Образования</h2>
+                <img src="/img/diplom-lowyer.jpg" alt="">
+            </div>
+            <div class="lowyer">
+                <h2>Диплом о получении Образования в сфере <span>Менеджента</span> предприятий</h2>
+                <img src="/img/diplom-manager.jpg" alt="">
+            </div>
+            <div class="lowyer">
+                <h2>Диплом о получении Образования <span>Антикризисного</span> управления</h2>
+                <img src="/img/diplom_FM.jpg" alt="">
+            </div>
+        </div>
+
+        <section class="contact" id="contacts">
+            <h2>Отправить <span>Запрос</span></h2>
+            <form action="telegram.php" method="POST">
+                <div class="form_input">
+                    <input class="input" name="name" id="user_name" type="text" placeholder=" " required />
+                    <label for="user_name"><i class='bx bx-user'></i> Ваше Имя:</label>
+                </div>
+                <div class="form_input">
+                    <input class="input" name="email" id="email" type="email" placeholder=" " required />
+                    <label for="email"><i class='bx bx-envelope'></i> Email:</label>
+                </div>
+                <div class="form_input">
+                    <input class="input" name="phone" id="tel" type="number" placeholder=" " required />
+                    <label for="tel"><i class='bx bxs-phone'></i> Ваш Телефон:</label>
+                </div>
+                <div class="form_input text_area">
+                    <textarea class="input" name="msg" id="msg" type="text" cols="25" rows="3" placeholder=" "
+                        required></textarea>
+                    <label for="msg"><i class='bx bx-message-square-dots'></i> Ваше сообщение:</label>
+                </div>
+
+                <button type="submit" class="btn button_submit">
+                    <p>*Oтправить</p>
+                </button>
+
+                <input class="checkbox_" type="checkbox" required>
+                <p>*Нажимая кнопку отправить вы даете согласие на обработку Ваших данных</p>
+
+                <div class="social_block">
+
+                    <ul>
+                        <li><a href="tel:+79186949800"><i class=' icon_ bx bx-phone-call bx-tada'></i></a></li>
+                        <li><a href="https://wa.me/79186949800" target="_blank"><i
+                                    class=' icon_ bx bxl-whatsapp'></i></a></li>
+                        <li><a href="https://t.me/MrKlykov" target="_blank"><i class=' icon_ bx bxl-telegram'></i></a>
+                        </li>
+                        <li><a href="mailto:info@klykov.ru"><i class='bx bx-mail-send'></i></a></li>
+                    </ul>
+
+                </div>
+            </form>
+
+        </section>
+
+        <footer class="footer">
+
+            <div class="adress">
+                <h3>&copy; Клыков Михаил Евгеньевич</h3>
+                <p>ИНН: 382037142692</p>
+                <p>Адрес: Краснодар, ул.Гимназическая, 40</p>
+                <p>телефон: +7-918-69-49-800</p>
+                <p>E-mail: info@klykov.ru</p>
+            </div>
+            <nav class="footer_nav">
+                <ul class="footer_nav_list">
+                    <li> <a href="/index.html"> Главная</a></li>
+                    <li> <a href="/index.html#about"> Избавиться от Кредитов</a></li>
+                    <li> <a href="/index.html#service"> Получить Долги</a></li>
+                    <li> <a href="/articles/comerce_creditor.html"> Блог о Банкротстве</a></li>
+                    <li> <a href="/articles/comerce_creditor.html"> Статья для предпринимателей </a></li>
+                </ul>
+            </nav>
+
+            <div class="footer_social">
+                <ul class="footer_social_list">
+                    <li><a href="tel:+79186949800"><i class=' icon_ bx bx-phone-call bx-tada'> </i></a>
+                    </li>
+                    <li><a href="https://wa.me/79186949800" target="_blank"><i
+                                class=' icon_ bx bxl-whatsapp bx-tada'></i></a>
+                    </li>
+                    <li><a href="https://t.me/MrKlykov" target="_blank"><i
+                                class=' icon_ bx bxl-telegram bx-tada'></i></a></li>
+                    <li><a href="mailto:info@klykov.ru"><i class='bx bx-mail-send bx-tada'></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.diploms {
+    min-height: 30vh;
+    border-top: .5rem solid var(--main-color);
+    border-bottom: .5rem solid var(--main-color);
+    border-radius: 5rem;
+    padding-top: 5rem;
+    margin-top: 5rem;
+    width: 70%;
+}
+
+.lowyer {
+    max-width: 350px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+
+
+.lowyer:hover img {
+    transform: scale(1.5);
+}
+
+.diploms img {
+    width: 100%;
+    object-fit: contain;
+    transition: .5s ease;
+}
+
+.lowyer h2 {
+    text-align: center;
+}
