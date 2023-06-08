@@ -94,9 +94,10 @@ header.bcg_color_header .nav_list a {
 .logo {
     width: 100%;
     justify-self: start;
+    cursor: pointer;
 }
 
-.logo h1 {
+.logo a {
     font-size: 1.5rem;
     color: var(--text-color);
 }
@@ -487,7 +488,7 @@ span {
     }
 
     .main_card {
-        left: 13px;
+        left: 0px;
     }
 
     .words {
@@ -772,6 +773,93 @@ span {
     }
 }
 
+@media (max-width:350px) {
+    .wrapper {
+        width: 100vw;
+    }
+
+    .img_main {
+        display: none;
+    }
+
+    .box_rotate {
+
+        transform: rotate(90deg);
+        border-top: 206px solid transparent;
+        border-left: 156px solid var(--bg-color);
+        border-bottom: 200px solid transparent;
+        width: 106px;
+
+    }
+
+    .portfolio {
+        display: none;
+    }
+
+    .portfolio_conteiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .heading_block_potrfolio {
+        width: 95%;
+    }
+
+    .img_cart {
+        max-width: 12rem;
+    }
+
+    .img_cart {
+        position: relative;
+        width: 12rem;
+        height: 0rem;
+        border-left: 2rem solid transparent;
+        border-right: 2rem solid transparent;
+        border-top: 23rem solid var(--main-color);
+
+    }
+
+    .box_rotate {
+        transform: rotate(90deg);
+        border-top: 101px solid transparent;
+        border-left: 176px solid var(--bg-color);
+        border-bottom: 120px solid transparent;
+        width: 58px;
+    }
+
+    .words {
+        width: 155px;
+        height: 155px;
+        top: -72px;
+        right: 98px;
+    }
+
+    .word h2 {
+        font-size: .8rem;
+    }
+
+    .word:nth-child(1) {
+        top: -16px;
+    }
+
+    .word:nth-child(2) {
+        right: -57px;
+    }
+
+    .word:nth-child(3) {
+        bottom: -17px;
+    }
+
+    .word:nth-child(4) {
+        left: -65px;
+    }
+
+
+}
+
 
 /* =============SERVICE============= */
 
@@ -780,7 +868,12 @@ span {
     flex-direction: column;
 }
 
-
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .service_heading h2 {
     display: inline-block;
@@ -1229,4 +1322,16 @@ textarea {
         width: 290px;
         margin-bottom: 14px;
     }
+}
+
+@media (max-width:350px) {
+
+
+    .footer_nav_list a {
+
+        font-size: .8rem;
+
+    }
+
+
 }

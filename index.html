@@ -8,7 +8,9 @@
     <title>ПроАрбитр</title>
 
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="app" href="/app/app.html" <link rel="stylesheet" href="/css/exit_modal.css">
     <link rel="stylesheet" href="/css/exit_modal.css">
+    <link rel="icon" href="/img/proarbitr-website-favicon-black.png" type="image/x-icon">
 
     <!-- add jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -21,7 +23,6 @@
 
     <!-- add input framework -->
 
-
     <script src="/js/exit_modal.js" defer></script>
     <script src="/js/index.js" defer></script>
 </head>
@@ -33,7 +34,7 @@
             <div class="header_conteiner">
 
                 <div class="logo">
-                    <h1>ProArbitr</h1>
+                    <h1> <a href="#">ProArbitr</a></h1>
                 </div>
 
                 <nav class="nav">
@@ -43,7 +44,7 @@
                         <ul class="nav_list_mobile">
                             <li> <a href="#"> Главная</a></li>
                             <li> <a href="#about"> Обо Мне</a></li>
-                            <li> <a href="#service"> Услуги</a></li>
+                            <li> <a href="/individuals_bankruptcy/bfl.html"> Банкротство</a></li>
                             <li> <a href="#portfolio"> Завершенные проекты</a></li>
                             <li> <a href="#contacts"> Заявка</a></li>
                         </ul>
@@ -54,7 +55,7 @@
                     <ul class="nav_list">
                         <li> <a href="#"> Главная</a></li>
                         <li> <a href="#about"> Обо Мне</a></li>
-                        <li> <a href="#service"> Услуги</a></li>
+                        <li> <a href="/individuals_bankruptcy/bfl.html"> Банкротство</a></li>
                         <li> <a href="#portfolio"> Завершенные проекты</a></li>
                         <li> <a href="#contacts"> Заявка</a></li>
                     </ul>
@@ -179,9 +180,17 @@
             <div class="service_heading" id="service">
                 <h2> Мои <span>Услуги</span> </h2>
             </div>
-
+            <div class="app">
+                <h4>Вы можете самостоятельно состовить заявление о признании себя банкротом заполнив поля.</h4>
+                <p>прейдите по кнопке ниже, чтобы бесплатно получить заявление о признании себя банкротом</p>
+                <div class="btn"> <a href="/app/app.html" target="_blank">самостоятельно
+                        составить заявление</a>
+                </div>
+            </div>
 
             <div class="service_box_content">
+
+
                 <div class="service_box box-1" id="debtor">
                     <i class='bx bx-error-alt'></i>
                     <h3>Избавиться от Кредитов</h3>
@@ -224,9 +233,6 @@
                 </div>
 
             </div>
-
-
-
         </section>
 
         <section class="about_content" id="about">

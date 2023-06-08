@@ -24,14 +24,23 @@
     color: var(--white-color);
     font-size: 1.2rem;
     text-align: start;
+    float: left;
 }
 
-.img_article {
-    /* float: right; */
-    /* max-width: 300px; */
+img {
+    max-width: 100%;
+    float: right;
+    border-radius: 0px 0px 0px 16px;
+    margin: 0px 0px 6px 10px;
+
 }
 
-.img_article img {
-    /* width: 100%;
-    object-fit: cover; */
+a {
+    color: rgb(22, 2, 156);
+    font-size: 1.2rem;
+}
+
+span {
+    font-size: .5rem;
+    color: whitesmoke
 }
