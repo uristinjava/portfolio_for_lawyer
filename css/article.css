@@ -1,0 +1,46 @@
+.nav_list a {
+    color: var(--main-color);
+}
+
+.article {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.article h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.article_body {
+    display: flex;
+    background: var(--main-color);
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.text_article {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    text-align: start;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    float: right;
+    border-radius: 0px 0px 0px 16px;
+    margin: 0px 0px 6px 10px;
+
+}
+
+a {
+    color: rgb(22, 2, 156);
+    font-size: 1.2rem;
+}
+
+span {
+    font-size: .5rem;
+    color: whitesmoke
+}
