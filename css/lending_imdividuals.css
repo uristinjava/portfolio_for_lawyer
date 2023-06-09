@@ -15,7 +15,8 @@
     --main-color: #754ef9;
     --blue-color: #0718C4;
     --white-color: #fdfdfd;
-    --shadow-color: #rgba(0, 0, 0, .2)
+    --shadow-color: #rgba(0, 0, 0, .2);
+    --yelow-color: #feb200;
 }
 
 body {
